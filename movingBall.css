@@ -1,0 +1,36 @@
+body {
+    padding: 0;
+    margin: 0;
+	overflow: hidden;
+}
+
+#surface {
+    background-color: #00FF00;
+}
+
+#timerText {
+	position: absolute;
+	left: 47%;
+	top: 5px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 26px;
+	color: #ff0000;
+}
+
+#buttonDiv {
+	position: absolute;
+	left: 45%;
+	bottom: 5px;
+	margin-left: auto ;
+	margin-right: auto ;
+}
+
+#fullscreenButton {
+	position: absolute;
+	right: 10px;
+	top: 5px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	font-size: 22px;
+	color: #ff0000;
+}

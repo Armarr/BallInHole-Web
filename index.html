@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="UTF-8">
+		<title>Moving Ball Illustration</title>
+		<link rel="stylesheet" type="text/css" href="movingBall.css">
+		<script src="movingBall.js"></script> 
+	</head>
+    <body>
+        <!--<a id="fullscreenButton" class="fadable" href="javascript:onFullscreen(event);" style="display: none;"> </a>-->
+        <canvas id="surface" width="800" height="600"> </canvas>
+        
+        <p id="timerText">0</p>
+        <div id="buttonDiv">
+			<button id=startButton onClick="startGame()">Start</button>
+			<button id=pauseButton onClick="pauseGame()">Pause</button>
+			<button id=stopButton onClick="stopGame()">Stop</button>
+        </div>
+    </body>
+</html>
+
